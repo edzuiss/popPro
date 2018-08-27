@@ -1,0 +1,628 @@
+@charset "UTF-8";
+/* Body */
+body {
+	font-family: "Metropolis";
+	background-color: #FFFFFF;
+	color: #FFFFFF;
+	margin: 0px;
+	font-style: normal;
+	font-size: 20px;
+	text-align: center;
+}
+
+.container {
+	display: flex;
+  	flex-direction: column;
+}
+
+/* Header */
+.dsc-header {
+	width: 100%;
+	margin-bottom: 0.25%;
+	position: fixed;
+}
+
+.header-backround{
+	margin-bottom: 10%;
+}
+
+.page-header {
+	background-color: #CD202C;
+	width: 100%;
+	padding-top: .25%;
+	padding-bottom: .25%;
+	box-shadow: 0 1px 2px 0 #363534;
+	font-size: 16px;
+}
+
+.login-header {
+	background-color:none ;
+	width: 100%;
+	text-align: center;
+	font-size: 35px;
+	padding-top: 2%
+}
+
+.logo-banner {
+	background-color: #FFFFFF;
+	width: 100%;
+	margin-top: 2%;
+	margin-bottom: 2.5%;
+	box-shadow: 0 1px 2px 0 #000000;
+}
+
+.login-background {
+	background-color: #363534;
+	width: 100%;
+}
+
+/* Dashboard Hading */
+.lc-heading {
+	background-color: #363534;
+	font-size: 20px;
+	padding: 1%;
+}
+
+/* Dashboard Summary */
+.heading-summary {
+	background-color: #363534;
+	display: flex;
+  	flex-direction: row;
+	justify-content: center;
+	font-size: 30px;
+}
+
+.dash-content {
+	width: 50%;
+	position: relative;
+	display: flex;
+  	flex-direction: row;
+	justify-content: center;
+}
+
+.heading-metric {
+	width: 50%;
+	position: relative;
+	display: flex;
+  	flex-direction: row;
+	justify-content: center;
+}
+
+.heading50 {
+	width: 50%;
+	display: flex;
+  	flex-direction: row;
+	justify-content: center;
+}
+
+.heading20 {
+	width: 20%;
+	display: flex;
+  	flex-direction: column;
+}
+
+.heading60 {
+	width: 60%;
+	text-align: left;
+	font-weight: 500;
+	padding-left: 2.5%;
+	display: flex;
+  	flex-direction: column;
+}
+
+.heading-emp {
+	width: 80%;
+	display: flex;
+  	flex-direction: row;
+	justify-content: center;
+}
+
+.sub-heading {
+	font-size: 16px;
+	font-weight: normal;
+	margin-bottom: 2.5%;
+}
+
+/* Shift Selection Banner */
+.banner {
+	background-color: #9B9A9A;
+	padding: 0.25%;
+	box-shadow: 0 1px 2px 0 #363534;
+	display: flex;
+  	flex-direction: row;
+	justify-content: center;
+	margin-bottom: 0.5%;
+}
+
+.shift-drop {
+	text-align: left;
+	font-size: 20px;
+	border: none;
+	background-color: #9B9A9A;
+	color: #FFFFFF;
+	transition: all 0.1s linear;
+	font-family: Metropolis;
+	margin-left: 2.5%;
+}
+.shift-drop:hover {
+	color: #FFFFFF;
+	background-color: #363534;
+	cursor: pointer;
+}
+
+
+
+.detail-summary {
+	background-color: #FFFFFF;
+	color: #363534;
+	height: 70%;
+	width: 100%;
+	display: flex;
+  	flex-direction: row;
+}
+
+
+.metric-good {
+	color: #4CAF50;
+	margin-right: 2.5%;
+	margin-left: 2.5%;
+	font-weight: 500;
+}
+
+.metric-bad {
+	color: #CD202C;
+	margin-right: 2.5%;
+	margin-left: 2.5%;
+	font-weight: 500;
+}
+
+.detail-heading {
+	margin-top: 2.5%
+}
+
+.metric-heading {
+	float: left;
+	color: #363534;
+	text-align: left;
+	margin-left: 7.5%;
+	margin-top: 1%;
+	margin-bottom: 2%;
+	font-weight: bold;
+}
+
+.emp-data-heading {
+	color: #FFFFFF;
+	text-align: left;
+	width: 10%;
+	font-size: 12px;
+	font-weight: 500;
+	margin: 1%;
+	text-transform: capitalize
+}
+
+.emp-data-column {
+	color: #363534;
+	text-align: left;
+	text-transform: uppercase;
+	width: 10%;
+	font-size: 12px;
+	margin: 1%;
+}
+
+.jobcod-wrkcat-group{
+	display: flex;
+  	flex-direction: row;
+	width: 50%;
+	margin-top: 0.75%;
+}
+
+.start-stop-group{
+	display: flex;
+  	flex-direction: row;
+	width: 20%;
+	margin-top: 0.75%;
+}
+
+.actual-goal-group{
+	display: flex;
+  	flex-direction: row;
+	width: 20%;
+	margin-top: 0.75%;
+}
+
+.job-code-margin {
+	text-align: left;
+	width: 30%;
+	margin-left: 5%;
+}
+
+.wrk-cat-margin {
+	text-align: left;
+	width: 70%; 
+}
+
+.task-start-margin {
+	text-align: right;
+	width: 50%; 	
+}
+
+.task-end-margin {
+	text-align: right;
+	width: 50%; 
+}
+
+.actual-margin {
+	text-align: right;
+	width: 50%; 
+	
+}
+
+.goal-margin {
+	text-align: right;
+	width: 50%; 
+}
+
+.var-margin {
+	text-align: center;
+	width: 10%; 
+}
+
+
+.shift-metric-heading {
+	float: left;
+	color: #363534;
+	text-align: left;
+	margin-left: 7.5%;
+	margin-top: 1%;
+	margin-bottom: 2%;
+	font-weight: bold;
+}
+
+.metric-summary {
+	float: right;
+	color: #363534;
+	text-align: right;
+	margin-right: 7.5%;
+	margin-top: 1%;
+	font-weight: lighter;
+}
+
+.shift-metric-summary {
+	float: right;
+	color: #363534;
+	text-align: right;
+	margin-right: 7.5%;
+	margin-top: 1%;
+	font-weight: lighter;
+}
+
+/* Dashboard Detail */
+.dash-detail {
+	margin-top: 15%;
+	background-color: #FFFFFF;
+	color: #363534;
+	width: 100%;
+	display: flex;
+  	flex-direction: row;
+}
+
+.dash-detail-section {
+	background-color: #FFFFFF;
+	color: #363534;
+	height: 100%;
+	width: 100%;
+	display: flex;
+  	flex-direction: column;
+}
+
+.emp-detail {
+	margin-top: 17.5%;
+	background-color: #FFFFFF;
+	color: #363534;
+	width: 100%;
+	display: flex;
+  	flex-direction: column;
+}
+
+.emp-detail-section {
+	background-color: #FFFFFF;
+	color: #363534;
+	width: 100%;
+	display: flex;
+  	flex-direction: row;
+	justify-content: center;
+	transition: all 0.1s linear;
+}
+
+.emp-detail-section:hover {
+	background-color: #EBEBEB;
+}
+
+.message {
+	font-size: 20px;
+}
+
+.login-form {
+	text-align: left;
+	border-radius: 3px;
+	font-size: 20px;
+	text-transform: uppercase;
+	border: 1px solid #FFFFFF;
+	background-color: #363534;
+	color: #FFFFFF;
+	transition: all 0.1s linear;
+	position:relative;
+	margin: 5px;
+	font-family: Metropolis;
+	padding: 5px;
+}
+
+.login-form:hover {
+	color: #363534;
+	background-color: #FFFFFF;
+	border: 1px solid #FFFFFF;
+	cursor: pointer;
+}
+
+.login-button {
+	text-align: left;
+	vertical-align: middle;
+	border-radius: 3px;
+	font-size: 20px;
+	border: 1px solid #FFFFFF;
+	background-color: #FFFFFF;
+	color: #363534;
+	transition: all 0.1s linear;
+	position:relative;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	font-family: Metropolis;
+	padding: 5px;
+	box-shadow: 0 1px 2px 0 #000000;
+}
+
+.login-button:hover {
+	color: #363534;
+	background-color: #FFFFFF;
+	border: 1px solid #FFFFFF;
+	cursor: pointer;
+}
+
+/* Employee Selection Buttons */
+.emp-box {
+	background-color: #EBEBEB;
+	border: 1px solid #EBEBEB;
+	border-radius: 5px;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.emp-button {
+	width: 95%;
+	text-align: left;
+	border-radius: 4px;
+	font-size: 18px;
+	background-color: #FFFFFF;
+	border: none;
+	color: #363534;
+	transition: all 0.3s linear;
+	display: flex;
+  	flex-direction: row;
+	margin: 2.25%;
+	padding: 2.25%;
+	font-family: Metropolis;
+}
+
+.emp-button:hover {
+	background-color: #9B9A9A;
+	border: none;
+	color: #FFFFFF;
+	cursor: pointer;
+	box-shadow: 0 1px 2px 0 #363534;
+}
+
+.emp-name {
+	color: #363534;
+	text-align: left;
+	width: 75%;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.emp-list {
+	color: #363534;
+	display: flex;
+  	flex-direction: column;
+	margin-top: 10%;
+}
+.emp-row {
+	color: #363534;
+	display: flex;
+  	flex-direction: row;
+	justify-content: center;
+	font-size: 15px;
+	border-bottom: 1px solid #9A9B9B;
+	padding: 0.5%;
+}
+.emp-row:hover {
+	background-color: #9A9B9B;
+}
+.emp-name-col {
+	text-align: left;
+	width: 50%;
+	margin-left: 2.5%;
+}
+.emp-ind-col {
+	text-align: right;
+	width: 25%;
+}
+.emp-var-col {
+	text-align: right;
+	width: 25%;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+}
+
+.emp-stats {
+	color: #363534;
+	text-align: right;
+	width: 25%;
+	font-size: 15px;
+	margin-right: 5px;
+}
+
+.view-all-link {
+	color: #2083CD;
+	text-align: left;
+	margin-left: 7.5%;
+	margin-top: 2%;
+	border: none;
+	font-size: 15px;
+	background-color: #FFFFFF;
+	float: left;
+	font-family: Metropolis;
+}
+
+.view-all-link:hover {
+	cursor: pointer;
+}
+
+/* Mobile */
+@media (max-width: 500px) {
+	.dash-detail {
+  		flex-direction: column;
+		margin-top: 35%;
+	}
+	.emp-name {
+		font-size: 11px;
+		width: 60%;
+	}
+	.emp-stats {
+		font-size: 10px;
+		width: 40%;
+	}
+	.shift-drop {
+		font-size: 14px;
+	}
+	.heading-summary {
+		font-size: 20px;	
+	}
+	.lc-heading{
+		font-size: 14px;
+		padding: 2.5%;
+	}
+	.heading50{
+		padding: 2.5%
+	}		
+	.dsc-header{
+		font-size: 14px;
+	}
+	.shift-metric-heading{
+		font-size: 14px;
+	}
+	.shift-metric-summary{
+		font-size: 14px;
+	}
+	.view-all-link{
+		font-size: 12px;
+	}
+	.sub-heading {
+		font-size: 11px;
+	}
+	.heading20{
+		font-size: 15px;
+	}
+	.heading60{
+		font-size: 15px;
+	}
+	.emp-data-heading {
+		font-size: 10px;
+	} 
+	.emp-data-column {
+		font-size: 10px;
+	}
+	.jobcod-wrkcat-group{
+  		flex-direction: column;
+		width: 35%;
+		margin-left: 2.5%
+	}
+	.start-stop-group{
+  		flex-direction: column;
+		width: 30%;
+	}
+	.actual-goal-group{
+  		flex-direction: column;
+		width: 15%;
+	}
+	.job-code-margin {
+		width: 100%;
+		height: 50%;
+		margin-left: 0;
+	}
+	.wrk-cat-margin {
+		width: 100%;
+		height: 50%;
+		margin-left: 0;
+	}
+	.task-start-margin {
+		width: 100%;
+		height: 50%;
+	}
+	.task-end-margin {
+		width: 100%;
+		height: 50%;
+	}
+	.actual-margin {
+		width: 100%;
+		height: 50%;
+	}
+	.goal-margin {
+		width: 100%;
+		height: 50%;
+	}
+	.var-margin {
+		width: 10%;
+		height: 100%;
+		margin-top: 2.5%;
+		margin-left: 2.5%;
+	}
+	.emp-detail {
+		margin-top: 32.5%;
+	}
+	.emp-detail-section {
+		border-bottom: 0.5px dotted #9B9A9A;
+	}
+	.emp-list {
+		margin-top: 20%;
+	}
+	.emp-name-col {
+		font-size: 10px;
+	}
+	.emp-ind-col {
+		font-size: 10px;
+	}
+	.emp-var-col {
+		font-size: 10px;
+	}
+	.login-form{
+		font-size: 15px;
+	}
+
+	.login-header{
+		font-size: 15px;
+	}
+	.message{
+		font-size: 15px;
+	}
+	.login-button {
+		font-size: 15px;
+	}
+	.page-header {
+		font-size: 12px;
+	}
+}
+
+/* iPad */
+@media (min-width: 501px) and (max-width: 1024px) {
+}

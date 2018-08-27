@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>POPPro - DSC Logistics</title>
+<link href="file:///C|/Users/Zuiss_Edward/Desktop/POPPro Redesign/POPPro.css" rel="stylesheet" type="text/css">
+<script src="file:///C|/Users/Zuiss_Edward/Desktop/POPPro Redesign/POPPro.js" type="text/javascript"></script>
+
+</head>
+
+<body class="login-background" onload="loginLoad()">
+
+<div class="container">
+<div class="login-header">POPPro</div>
+<div class="logo-banner"><img src="DSC_new_brand-04.png" style="width:128px;height:128px;"></div>
+
+<div>
+<select class="login-form" id="lmConnection">
+	<option value="192.168.1.122:4800">approd</option>
+	<option value="192.168.1.127:4830">arprod</option>
+	<option value="192.168.1.128:4000">kiprod</option>
+	<option value="192.168.1.127:4400">ktprod</option>
+	<option value="192.168.1.127:4650">dpprod</option>
+	<option value="192.168.1.127:4630">elprod</option>
+	<option value="192.168.1.122:4650">fgprod</option>
+	<option value="192.168.1.128:6000">fcprod</option>
+	<option value="192.168.1.117:5506">hbprod</option>
+	<option value="192.168.1.123:4800">Jtprod</option>
+	<option value="192.168.1.122:5200">cjprod</option>
+	<option value="192.168.1.117:4606">jiprod</option>
+	<option value="192.168.1.117:5806">ltprod</option>
+	<option value="192.168.1.122:4600">mgprod</option>
+	<option value="192.168.1.130:4605">mpprod</option>
+	<option value="192.168.1.121:4600">otprod</option>
+	<option value="192.168.1.122:6000">npprod</option>
+	<option value="192.168.1.121:4800">pcprod</option>
+	<option value="192.168.1.127:4525">riprod</option>
+	<option value="192.168.1.122:4700">wsprod</option>
+	<option value="192.168.1.126:4900">toprod</option>
+	<option value="192.168.1.130:4550">typrod</option>
+	<option value="192.168.1.122:5100">tgprod</option>
+	<option value="192.168.1.123:5070">upprod</option>
+	<option value="192.168.1.123:4501">wmprod</option>	
+</select>
+</div>
+
+<form action="javascript:loginUser()">
+<br>
+<input type="text" placeholder="User" class="login-form" id="userName">
+<br>
+
+<input type="password" placeholder="Password" class="login-form" id="password">
+<br>
+<br>
+<input type="submit" class="login-button" value="Login">
+<br>
+</form>
+
+<div id="message" class="message"></div>
+
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>POPPro - DSC Logistics</title>
+<link href="file:///C|/Users/Zuiss_Edward/Desktop/POPPro Redesign/POPPro.css" rel="stylesheet" type="text/css">
+<script src="file:///C|/Users/Zuiss_Edward/Desktop/POPPro Redesign/POPPro.js" type="text/javascript"></script>
+</head>
+
+<body onload="getDashData()">
+
+<div class="container">
+
+<div class="dsc-header">
+<!-- App Header -->
+<div class="page-header">POPPro Dashboard</div>
+
+<!-- Dashboard Header -->
+<div class="lc-heading" id="lc"></div>
+  
+  <!-- Dashboard Summary Section -->
+<div class="heading-summary">
+  	<div class="heading50" id="indirectMtrcHead"></div>
+	<div class="heading50" id="varianceMtrcHead"></div>	
+</div>
+  
+<!-- Shift Selection Banner -->
+<div class="banner">
+ <select class="shift-drop" id="shiftList" onchange="selectShift()">
+ </select>
+</div>
+</div>
+  
+ <!-- Dashboard Detail Section -->
+<div class="dash-detail">
+  	<div class="dash-detail-section">
+  		<div class="detail-heading" id="excessIndHead">
+  			<div class="shift-metric-heading">Indirect Time</div>
+  		</div>
+  		<div class="emp-box" id="boxInd"></div>
+  		<a id="shiftAllIndEmp" onclick="empListClick()"></a>
+  	</div>
+	<div class="dash-detail-section">
+		<div class="detail-heading" id="subparVarHead">
+			<div class="shift-metric-heading">Productivity</div>
+  		</div>
+	  	<div class="emp-box" id="boxVar"></div>
+  		<a id="shiftAllVarEmp" onclick="empListClick()"></a>
+	</div>
+</div>
+
+</div>
+</body>
+
+</html>
